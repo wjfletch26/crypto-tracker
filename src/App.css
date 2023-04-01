@@ -44,3 +44,31 @@
 .coin-input::placeholder {
   color: #e2e2e2;
 }
+
+.green-text {
+  color: lightgreen;
+}
+
+.red-text {
+  color: lightcoral;
+}
+
+td.table-img img {
+  height: 64px;
+  width: 64px;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #000;
+  width: 150px;
+}
+
+td + td {
+  width: auto;
+}
