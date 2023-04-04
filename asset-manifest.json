@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//wjfletch26.github.io/crypto-tracker/static/css/main.4736b995.css",
+    "main.js": "//wjfletch26.github.io/crypto-tracker/static/js/main.ae545a9b.js",
+    "static/media/bootstrap-icons.woff?": "//wjfletch26.github.io/crypto-tracker/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "//wjfletch26.github.io/crypto-tracker/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "//wjfletch26.github.io/crypto-tracker/index.html",
+    "main.4736b995.css.map": "//wjfletch26.github.io/crypto-tracker/static/css/main.4736b995.css.map",
+    "main.ae545a9b.js.map": "//wjfletch26.github.io/crypto-tracker/static/js/main.ae545a9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4736b995.css",
+    "static/js/main.ae545a9b.js"
+  ]
+}
