@@ -87,20 +87,20 @@ function App() {
     }).format(price);
 
   return (
-    <div className="coin-app">
-      <div className="coin-search">
-        <h1 className="coin-text">Search your desired coin</h1>
-        <form action="">
-          <input
-            type="text"
-            className="coin-input"
-            placeholder="Provide the coin name"
-            onChange={handleChange}
-          />
-        </form>
-      </div>
-      <div className="container">
-        <Table variant="dark" striped bordered hover>
+    <div className=" container">
+      <div className="coin-app">
+        <div className="coin-search">
+          <h1 className="coin-text">Search your desired coin</h1>
+          <form action="">
+            <input
+              type="text"
+              className="coin-input"
+              placeholder="Provide the coin name"
+              onChange={handleChange}
+            />
+          </form>
+        </div>
+        <Table variant="dark" striped bordered hover responsive>
           <thead>
             <tr>
               <th className="table-img "></th>

@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   font-family: "Bree Serif", serif;
-  /* height: 100%; */
-  /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
-  /* color: #fff; */
-  /* background-color: black; */
 }
+
+html body {
+  background-color: black;
+}
+
 .coin-app {
   overscroll-behavior: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 64px; */
+  margin-top: 64px;
   color: #fff;
   background-color: black;
+  overflow: auto;
 }
+
 .coin-search {
   margin-bottom: 64px;
   display: flex;
@@ -25,10 +28,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .coin-text {
   margin: 32px 0;
   text-align: center;
 }
+
 .coin-input {
   padding-left: 16px;
   width: 300px;
@@ -44,6 +49,7 @@
   /* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
   color: #e2e2e2;
 }
+
 .coin-input::placeholder {
   color: #e2e2e2;
 }
@@ -66,15 +72,18 @@ td.table-img img {
 }
 
 table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  width: 100%;
+  -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+div.table-responsive {
+  width: 100% !important;
 }
 
 td {
   border: 1px solid #000;
   width: 150px;
   text-align: center;
+  min-width: fit-content;
 }
 
 td + td {
@@ -90,7 +99,6 @@ td + td {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: #212529 !important; */
 }
 
 .arrow-filter-button-group {
@@ -101,7 +109,6 @@ td + td {
 .arrow-filter {
   border: none;
   background-color: transparent;
-  /* height: 24px; */
 }
 
 .arrow-filter-up {
