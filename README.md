@@ -1,6 +1,6 @@
 # Crypto Tracker React App
 
-This is a Crypto Price Tracking app I created to practice my React.js, REST Api, and Data Visualization skills. Also table skills -- becuase everyone loves tables, right?!   ¯¯\_(ツ)_/¯¯
+This is a Crypto Price Tracking app I created to practice my React.js, REST Api, and Data Visualization skills. Also table skills -- becuase everyone loves tables, right?!  ¯\_(ツ)_/¯
 
 ## Technologies Used
 - React [create-react-app](https://create-react-app.dev/)
